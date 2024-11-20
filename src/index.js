@@ -10,6 +10,7 @@ import CountEx from './components/step03/CountEx';
 import CheckEx from './components/step03/CheckEx';
 import ToDoList from './components/step04/ToDoList';
 import ProfileEx from './components/step05/ProfileEx';
+import TempEx from './components/step06/TempEx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,7 +22,8 @@ root.render(
     <CountEx />
     <CheckEx />
     <ToDoList /> */} 
-    <ProfileEx />
+    {/* <ProfileEx /> */}
+    <TempEx />
   </React.StrictMode>
 );
 
