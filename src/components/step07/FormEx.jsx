@@ -21,6 +21,7 @@ function FormEx(props) {
       <input 
         type='checkbox'
         checked={isSubscribed}
+        // checkbox에서는 checked를 써야 한다!!
         onChange={e => setSubScribed(e.target.checked)}
       />
       <label>Subscribed</label>
@@ -34,9 +35,7 @@ function FormEx(props) {
             roles.map((k)=>(
               <option key={k} value={k}>{k}</option>
             ))}
-
         </select>
-          
       </p>
     </form>
   );

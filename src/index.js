@@ -12,20 +12,22 @@ import ToDoList from './components/step04/ToDoList';
 import ProfileEx from './components/step05/ProfileEx';
 import TempEx from './components/step06/TempEx';
 import FormEx from './components/step07/FormEx';
+import ExchangeEx from './components/homework/ExchangeEx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    {/* <NumberCounter />
+    <NumberCounter />
     <NumberCounter2 />
     <InputExam />
     <CountEx />
     <CheckEx />
-    <ToDoList /> */} 
-    {/* <ProfileEx /> */}
-    {/* <TempEx /> */}
+    <ToDoList />
+    <ProfileEx />
+    <TempEx />
     <FormEx />
+    <ExchangeEx />
   </React.StrictMode>
 );
 

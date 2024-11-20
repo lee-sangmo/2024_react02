@@ -7,7 +7,7 @@ function ProfileEx({name}) {
   const [user, setUser] = useState(users[0])
   const [isStatus, setStatus] = useState(true)
   return (
-    <div className='center'>
+    <div>
       <h2>User Profile</h2>
       <button onClick={() => setStatus(!isStatus)}>Toggle Status</button>
       <button onClick={() => setUser(

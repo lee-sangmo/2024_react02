@@ -42,7 +42,8 @@ import React from 'react';
 
 // e: 이벤트 객체를 말한다
 const handleEvent = (name, e) => (
-  console.log(name, e)
+  // console.log(name, e)
+  alert(name, e)
 )
 const Btn = ({name}) => (
   <Button variant='contained'

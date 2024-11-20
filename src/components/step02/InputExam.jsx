@@ -1,10 +1,9 @@
 import React from 'react';
-import './InputExam.css';
 import { TextField } from '@mui/material';
 
 function InputExam(props) {
   return (
-    <div className='center'>
+    <div>
       <input onFocus={() => console.log('onFocus')}
         onBlur={() => console.log('onBlur')} /><br /><br />
 

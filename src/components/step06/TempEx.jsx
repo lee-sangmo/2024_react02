@@ -8,7 +8,7 @@ function TempEx(props) {
   const convertedTemp = unit === 'Celsius' ? 
     (temperature * 9 / 5 + 32).toFixed(1) : (temperature - 32 * 5 / 9).toFixed(1);
   return (
-    <div className='TempCard'>
+    <div>
       <h2>Temperature Converter</h2>
       <p>Converted: {temperature ? convertedTemp : "--" }
         {unit === 'Fahrenheit'? "℃" : "℉"}
