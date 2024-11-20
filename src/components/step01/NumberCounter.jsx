@@ -7,7 +7,7 @@ function NumberCounter(props) {
   }
   return (
     <div>
-      <br />
+      <br /><br />
       <Button variant="contained" onClick={handleClick}>Button1</Button><br /><br />
       <Button variant="outlined" onClick={() => {console.log('Event2')}}>Button2</Button><br /><br />
     </div>

@@ -9,17 +9,19 @@ import InputExam from './components/step02/InputExam';
 import CountEx from './components/step03/CountEx';
 import CheckEx from './components/step03/CheckEx';
 import ToDoList from './components/step04/ToDoList';
+import ProfileEx from './components/step05/ProfileEx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    {/* <NumberCounter /> */}
-    {/* <NumberCounter2 /> */}
-    {/* <InputExam /> */}
-    {/* <CountEx /> */}
-    {/* <CheckEx /> */}
-    <ToDoList />
+    {/* <NumberCounter />
+    <NumberCounter2 />
+    <InputExam />
+    <CountEx />
+    <CheckEx />
+    <ToDoList /> */} 
+    <ProfileEx />
   </React.StrictMode>
 );
 
