@@ -11,6 +11,7 @@ import CheckEx from './components/step03/CheckEx';
 import ToDoList from './components/step04/ToDoList';
 import ProfileEx from './components/step05/ProfileEx';
 import TempEx from './components/step06/TempEx';
+import FormEx from './components/step07/FormEx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,7 +24,8 @@ root.render(
     <CheckEx />
     <ToDoList /> */} 
     {/* <ProfileEx /> */}
-    <TempEx />
+    {/* <TempEx /> */}
+    <FormEx />
   </React.StrictMode>
 );
 
