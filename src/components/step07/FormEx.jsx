@@ -27,7 +27,7 @@ function FormEx(props) {
       <label>Subscribed</label>
       </p>
       <p>
-        <select 
+        <select
           value={role}
           onChange={e=>setRole(e.target.value)} 
         >
