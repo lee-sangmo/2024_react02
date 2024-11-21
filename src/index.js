@@ -13,22 +13,30 @@ import ProfileEx from './components/step05/ProfileEx';
 import TempEx from './components/step06/TempEx';
 import FormEx from './components/step07/FormEx';
 import ExchangeEx from './components/homework/ExchangeEx';
+import EffectTest01 from './components/step08/EffectTest01';
+import EffectTest02 from './components/step08/EffectTest02';
+import EffectTest03 from './components/step08/EffectTest03';
+import EffectTest04 from './components/step08/EffectTest04';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    {/* <App /> */}
-    <NumberCounter />
-    <NumberCounter2 />
-    <InputExam />
-    <CountEx />
-    <CheckEx />
-    <ToDoList />
-    <ProfileEx />
-    <TempEx />
-    <FormEx />
-    <ExchangeEx />
-  </React.StrictMode>
+  // <React.StrictMode>
+  // <App />
+  // <NumberCounter />
+  // <NumberCounter2 />
+  // <InputExam />
+  // <CountEx />
+  // <CheckEx />
+  // <ToDoList />
+  // <ProfileEx />
+  // <TempEx />
+  // <ExchangeEx />
+  // <FormEx />
+  // <EffectTest01 />
+  // <EffectTest02 />
+  // <EffectTest03 />
+  // </React.StrictMode>
+  <EffectTest04 />
 );
 
 // If you want to start measuring performance in your app, pass a function
