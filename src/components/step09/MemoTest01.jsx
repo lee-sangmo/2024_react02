@@ -7,10 +7,10 @@ import React, { useMemo, useState } from 'react';
 //                      2nd 인수는 해당 계산이 다시 실행될 조건(의존성 배열)
 
 function MemoTest01(props) {
+  console.log("컴포넌트 랜더링");
+
   const [count, setCount] = useState(0);
   const [text, setText] = useState("");
-
-  console.log("컴포넌트 랜더링");
 
   // useMemo가 없으면 텍스트 입력 시마다 불필요한 count도 계산하게 된다
   // useMemo를 쓰면 텍스트 입력 시에는 계산을 하지 않아도 된다
