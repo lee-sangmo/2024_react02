@@ -1,6 +1,6 @@
 import React from 'react';
 
-function UseId(props) {
+function ContextTest(props) {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function UseId(props) {
   );
 }
 
-export default UseId;
+export default ContextTest;
