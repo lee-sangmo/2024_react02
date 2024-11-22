@@ -32,6 +32,8 @@ import UseId from './components/step12/UseIdTest';
 import UseIdTest from './components/step12/UseIdTest';
 // import ContextTest from './components/step13/ContextTest';
 import ContextTest from './components/step14/ContextTest';
+import ReducerTest01 from './components/step15/ReducerTest01';
+import ReducerTest02 from './components/step15/ReducerTest02';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -64,7 +66,9 @@ root.render(
   // <RefTest04 />
   // <RefTest05 />
   // <UseIdTest />
-  <ContextTest />
+  // <ContextTest />
+  // <ReducerTest01 />
+  <ReducerTest02 />
 );
 
 // If you want to start measuring performance in your app, pass a function
