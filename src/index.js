@@ -30,7 +30,8 @@ import RefTest04 from './components/step11/RefTest04';
 import RefTest05 from './components/step11/RefTest05';
 import UseId from './components/step12/UseIdTest';
 import UseIdTest from './components/step12/UseIdTest';
-import ContextTest from './components/step13/ContextTest';
+// import ContextTest from './components/step13/ContextTest';
+import ContextTest from './components/step14/ContextTest';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
